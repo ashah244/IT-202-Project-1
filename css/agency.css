@@ -180,6 +180,14 @@ header.masthead {
   background-size: cover;
 }
 
+.carousel-inner{
+    height: 700px;
+}
+
+.item, img{
+    min-height:700px;
+    width:  100% !important;
+}
 /* header.masthead .intro-text {
   padding-top: 150px;
   padding-bottom: 100px;
@@ -202,6 +210,7 @@ header.masthead .intro-text .intro-heading {
 } */
 
 @media (min-width: 768px) {
+
   /* header.masthead .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
